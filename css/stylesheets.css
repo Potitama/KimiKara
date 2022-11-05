@@ -1,0 +1,94 @@
+html,body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Kaisei Decol', serif;
+}
+
+#particles-js{ 
+	position:fixed;
+	z-index:-1;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(138, 44, 80);
+}
+
+#wrapper{
+	position: relative;
+	z-index: 1;
+	width:100%;
+	height: 100%;
+}
+
+.contents {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.title {
+    margin-top: 28vh;
+    font-size: 80px;
+    height: 60vh;
+}
+
+.title-area {
+    text-align: center;
+}
+
+.kira-title {
+    color: rgb(79, 120, 255);
+}
+
+.miaka-title {
+    color: rgb(221, 75, 235);
+}
+
+.sub-title {
+    color: aliceblue;
+    font-size: 32px;
+    padding: 25px;
+}
+
+.human-intro {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.human-name {
+    font-size: 90px;
+    margin-top: 0px;
+}
+
+.human-sub-name {
+    color: aliceblue;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.sentence p {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.intro-2 {
+    margin-top: 150px;
+}
+
+.fadein {
+    opacity: 0;
+    transform: translateY(200px);
+    transition: all 2.5s;
+} 
+
+.fadein-load {
+    opacity: 0;
+    transform: translateY(200px);
+    transition: all 2.5s;
+} 
+
+footer {
+    height: 150px;
+}

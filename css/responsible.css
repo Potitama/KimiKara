@@ -1,0 +1,54 @@
+@media (max-width: 767px) {
+    .human-intro {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .intro-2 {
+        flex-direction: column-reverse;
+    }
+
+    .human-name {
+        font-size: 60px;
+    }
+
+    .miaka-img {
+        width: 190px;
+        height: 390px;
+        margin: 0 auto;
+    }
+
+    .kira-img {
+        width: 260px;
+        height: 410px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .kira-img {
+        width: 410px;
+        height: 650px;
+    }
+
+    .miaka-img {
+        width: 350px;
+        height: 700px;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 120px;
+    }
+
+    .sub-title {
+        font-size: 60px;
+    }
+}
