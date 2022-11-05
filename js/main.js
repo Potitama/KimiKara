@@ -4,7 +4,7 @@ if (windowWidth <= windowSm) {
 particlesJS("particles-js", {
     "particles": {
       "number": {
-        "value": 200,
+        "value": 170,
         "density": {
           "enable": true,
           "value_area": 800

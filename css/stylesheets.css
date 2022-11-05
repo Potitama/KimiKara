@@ -48,6 +48,7 @@ html,body{
     color: aliceblue;
     font-size: 32px;
     padding: 25px;
+    margin: 0px !important;
 }
 
 .human-intro {
