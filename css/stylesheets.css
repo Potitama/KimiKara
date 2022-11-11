@@ -93,3 +93,31 @@ html,body{
 footer {
     height: 150px;
 }
+
+.section-title {
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 100px;
+    display: inline-block;
+    border-bottom: solid 1px;
+}
+
+.section-subtitle {
+    font-size: 25px;
+}
+
+.movie-contents {
+    display: flex;
+}
+
+.twitter-tweet {
+    margin: 0 auto;
+}
+
+.c-2 {
+    margin-top: 50px;
+}
+
+.c-4 {
+    margin-top: 130px;
+}

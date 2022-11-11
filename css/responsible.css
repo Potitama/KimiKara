@@ -27,6 +27,27 @@
     .title {
         margin-top: 22vh;
     }
+
+    .movie-contents {
+        flex-direction: column;
+    }
+
+    .c-2 {
+        margin-top: 0px;
+    }
+
+    .section-title {
+        font-size: 38px;
+        margin-bottom: 100px;
+    }
+    
+    .section-subtitle {
+        font-size: 23px;
+    }
+
+    .section-title-area {
+        text-align: center;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
