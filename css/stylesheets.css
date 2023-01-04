@@ -102,7 +102,7 @@ footer {
 a {
     color: aliceblue;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     margin-top: 10px;
 }
 
